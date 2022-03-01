@@ -19,6 +19,7 @@ import { toast } from "react-toastify";
 
 function CreateListing() {
   const [loading, setLoading] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [geolocationEnabled, setGeolocationEnabled] = useState(true);
   const [formData, setFormData] = useState({
     type: "rent",
